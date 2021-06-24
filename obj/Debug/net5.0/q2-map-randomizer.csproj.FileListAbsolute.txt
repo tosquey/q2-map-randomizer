@@ -1,0 +1,17 @@
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/q2-map-randomizer.deps.json
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/q2-map-randomizer.runtimeconfig.json
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/q2-map-randomizer.runtimeconfig.dev.json
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/q2-map-randomizer.dll
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/ref/q2-map-randomizer.dll
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/q2-map-randomizer.pdb
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.csproj.AssemblyReference.cache
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.AssemblyInfoInputs.cache
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.AssemblyInfo.cs
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.csproj.CoreCompileInputs.cache
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.dll
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/ref/q2-map-randomizer.dll
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.pdb
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.genruntimeconfig.cache
+/Users/lmatto1/source/q2-map-randomizer/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/lmatto1/source/q2-map-randomizer/obj/Debug/net5.0/q2-map-randomizer.csproj.CopyComplete
