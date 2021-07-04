@@ -11,9 +11,9 @@ namespace q2_map_randomizer
 
         static void Main(string[] args)
         {
-            var matches = Bracket.GetMatches("/Users/lmatto1/temp/bracket.json");
+            var matches = Bracket.GetMatches(@"e:\temp\bracket.json");
 
-            string file = string.Format("/Users/lmatto1/temp/maps-{0}.txt", DateTime.Now.ToString("yyyyMMddhhmmss"));
+            string file = string.Format(@"e:\temp\maps-{0}.txt", DateTime.Now.ToString("yyyyMMddhhmmss"));
 
             using (StreamWriter output = new StreamWriter(file, append: true))
             {
@@ -31,7 +31,7 @@ namespace q2_map_randomizer
 
         static List<string> GetMaps()
         {
-            return new List<string>() {"q2dm1","q2dm3","match1","ztn2dm2","ztn2dm3","ptrip","q2rdm2","q2duel5"};
+            return new List<string>() {"q2dm1","ztn2dm2","ztn2dm3"};
         }
 
         static string GetRandomMap()

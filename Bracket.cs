@@ -27,30 +27,34 @@ namespace q2_map_randomizer
 
             foreach (var node in json["data"]["items"]["entities"]["sets"])
             {
-                string identifier = node["identifier"].Value<string>();
-
-                Player player1, player2;
-                int player1Id, player2Id = 0;
-
-                if (int.TryParse(node["entrant1Id"].Value<string>(), out player1Id))
+                if (node["entrant1PrereqType"].Value<string>() != "bye"
+                    && node["entrant2PrereqType"].Value<string>() != "bye")
                 {
-                    player1 = entrants.Where(a => a.Id == player1Id).FirstOrDefault();
-                }
-                else
-                {
-                    player1 = nulo;
-                }
+                    string identifier = node["identifier"].Value<string>();
 
-                if (int.TryParse(node["entrant2Id"].Value<string>(), out player2Id))
-                {
-                    player2 = entrants.Where(a => a.Id == player2Id).FirstOrDefault();
-                }
-                else
-                {
-                    player2 = nulo;
-                }
+                    Player player1, player2;
+                    int player1Id, player2Id = 0;
 
-                matches.Add(new Match() { Identifier = identifier, Players = { player1, player2 }});
+                    if (int.TryParse(node["entrant1Id"].Value<string>(), out player1Id))
+                    {
+                        player1 = entrants.Where(a => a.Id == player1Id).FirstOrDefault();
+                    }
+                    else
+                    {
+                        player1 = nulo;
+                    }
+
+                    if (int.TryParse(node["entrant2Id"].Value<string>(), out player2Id))
+                    {
+                        player2 = entrants.Where(a => a.Id == player2Id).FirstOrDefault();
+                    }
+                    else
+                    {
+                        player2 = nulo;
+                    }
+
+                    matches.Add(new Match() { Identifier = identifier, Players = { player1, player2 }});
+                }
             }
 
             return matches;
